@@ -12,7 +12,7 @@ Shader "Custom/Wrap"
         LOD 200
 
         CGPROGRAM
-        #pragma surface surf wrap noabient;
+        #pragma surface surf wrap
         #pragma target 3.0
 
         sampler2D _MainTex;

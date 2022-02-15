@@ -14,7 +14,7 @@ Shader "Custom/BlinnPhong"
         LOD 200
 
         CGPROGRAM
-        #pragma surface surf Test noabient;
+        #pragma surface surf Test
         #pragma target 3.0
 
         sampler2D _MainTex;

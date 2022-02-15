@@ -10,6 +10,7 @@ Shader "Custom/Toon"
     {
         Tags { "RenderType" = "Opaque" }
         cull front
+        zwrite off
         LOD 200
 
 
@@ -40,8 +41,8 @@ Shader "Custom/Toon"
 
         ENDCG
 
-        
         cull back
+        zwrite on
         CGPROGRAM
         #pragma surface surf Toon noambient
         sampler2D _MainTex;
