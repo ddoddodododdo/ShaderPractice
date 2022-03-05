@@ -15,11 +15,11 @@ D:/unity/project/ShaderDemo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64040
+53911
 Successfully changed project path to: D:/unity/project/ShaderDemo
 D:/unity/project/ShaderDemo
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path D:/unity/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -36,75 +36,75 @@ Initialize mono
 Mono path[0] = 'D:/unity/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unity/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004437 seconds.
+Registered in 0.004666 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.270 seconds
+- Completed reload, in  2.335 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2271ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (2335ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (419ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (436ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
+			RebuildScriptCaches (31ms)
 			SetupLoadedEditorAssemblies (165ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012288 seconds.
+Registered in 0.012139 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.828 seconds
+- Completed reload, in  1.866 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1829ms)
-		BeginReloadAssembly (163ms)
+	ReloadAssembly (1867ms)
+		BeginReloadAssembly (159ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1598ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1640ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (1034ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1069ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (858ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (901ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
@@ -114,15 +114,15 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Custom/Water': fallback shader 'Legacy Shaders/Transparent/Vertexlit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2304 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.4 MB.
-System memory in use after: 194.6 MB.
+Unloading 2305 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.1 MB.
+System memory in use after: 208.2 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2749.
-Total: 3.600400 ms (FindLiveObjects: 0.354300 ms CreateObjectMapping: 0.196500 ms MarkObjects: 2.953400 ms  DeleteObjects: 0.095100 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 3.798600 ms (FindLiveObjects: 0.361000 ms CreateObjectMapping: 0.166100 ms MarkObjects: 3.146100 ms  DeleteObjects: 0.124100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,44 +136,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Shaders/Toon/Toon.shader
-  artifactKey: Guid(eea94b71caf297c4cbe8412de8c0a4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Toon/Toon.shader using Guid(eea94b71caf297c4cbe8412de8c0a4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffda154c63d1ed55282c27b571c3aef') in 0.035679 seconds 
-  Import took 0.038930 seconds .
+  path: Assets/Shaders/ColorChange/ColorChange.mat
+  artifactKey: Guid(89bee5a2be8b857448091cbcf22146d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/ColorChange/ColorChange.mat using Guid(89bee5a2be8b857448091cbcf22146d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2379b0334b22a1bf4eabce7232a262') in 0.217961 seconds 
+  Import took 0.257981 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.539824 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(c7f2845d6c97ce944a11fab809c8b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(c7f2845d6c97ce944a11fab809c8b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Received signal SIGSEGV
-Stack trace:
-0x00007ff6f623404a (Unity) CreateAssetToGUIDMappingV2
-0x00007ff6f61921f0 (Unity) AssetDatabase::CreateAssetToGUIDMapping
-0x00007ff6f4f71195 (Unity) SplatDatabase::CreateTerrainLayerAsset
-0x00007ff6f4f6fe50 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
-0x00007ff6f4f6ccbc (Unity) SplatDatabase::AwakeFromLoad
-0x00007ff6f4fb7926 (Unity) TerrainData::AwakeFromLoad
-0x00007ff6f4b1ef9f (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
-0x00007ff6f4b1f8f2 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x00007ff6f4b1fa7a (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x00007ff6f4aaac4e (Unity) PersistentManager::IntegrateAllThreadedObjects
-0x00007ff6f4aab667 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
-0x00007ff6f4aaebb3 (Unity) PersistentManager::ReadObject
-0x00007ff6f618a811 (Unity) WritePreviews
-0x00007ff6f61846ce (Unity) PreviewImporter::GenerateAssetData
-0x00007ff6f6279479 (Unity) ImportToObjects
-0x00007ff6f62784b8 (Unity) ImportAsset
-0x00007ff6f61da2b8 (Unity) AssetImportWorker::Import
-0x00007ff6f622d64a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
-0x00007ff6f62d18d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
-0x00007ff6f62d3a30 (Unity) asio::detail::win_iocp_io_service::do_one
-0x00007ff6f62d71be (Unity) asio::io_service::run
-0x00007ff6f625a40b (Unity) RunAssetImportWorkerClientV2
-0x00007ff6f625a460 (Unity) RunAssetImporterV2
-0x00007ff6f57219a6 (Unity) Application::InitializeProject
-0x00007ff6f60c98b2 (Unity) WinMain
-0x00007ff6f7f1d3b6 (Unity) __scrt_common_main_seh
-0x00007ffec80b7034 (KERNEL32) BaseThreadInitThunk
-0x00007ffec8202651 (ntdll) RtlUserThreadStart
+  Time since last request: 29.346972 seconds.
+  path: Assets/Shaders/Hexagon
+  artifactKey: Guid(dceaaa7d8c78c694cbc4e5366c487f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Hexagon using Guid(dceaaa7d8c78c694cbc4e5366c487f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d3ccee26eb67a808586b789c75960f') in 0.003168 seconds 
+  Import took 0.027393 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 496.777783 seconds.
+  path: Assets/Shaders/Hexagon/Hexagon.shader
+  artifactKey: Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Hexagon/Hexagon.shader using Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c479a93957c28ab051f068609db801ce') in 0.011452 seconds 
+  Import took 0.055446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115435 seconds.
+  path: Assets/Shaders/Hexagon/Hexagon.shader
+  artifactKey: Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Hexagon/Hexagon.shader using Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c479a93957c28ab051f068609db801ce') in 0.004582 seconds 
+  Import took 0.008663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.098568 seconds.
+  path: Assets/Shaders/Hexagon/Hexagon.mat
+  artifactKey: Guid(209c7fd5495752a4d8cc769d6c33fa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Hexagon/Hexagon.mat using Guid(209c7fd5495752a4d8cc769d6c33fa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fed5bcce13ac029c0fcf4ae091f27e') in 0.021099 seconds 
+  Import took 0.041308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.638200 seconds.
+  path: Assets/Shaders/Hexagon/Hexagon.shader
+  artifactKey: Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Hexagon/Hexagon.shader using Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fee04c35f21f9bb182e724f3b00cdc') in 0.004671 seconds 
+  Import took 0.026252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001467 seconds.
+  path: Assets/Shaders/Hexagon/Hexagon.shader
+  artifactKey: Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Hexagon/Hexagon.shader using Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fee04c35f21f9bb182e724f3b00cdc') in 0.005227 seconds 
+  Import took 0.009531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.760950 seconds.
+  path: Assets/Shaders/Hexagon/Hexagon.shader
+  artifactKey: Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Hexagon/Hexagon.shader using Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97fdbe386277af7ee0e9bdfd7e22c3f') in 0.005123 seconds 
+  Import took 0.034239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Shaders/Hexagon/Hexagon.shader
+  artifactKey: Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Hexagon/Hexagon.shader using Guid(1d1fa5e79be2e6040943887713500809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97fdbe386277af7ee0e9bdfd7e22c3f') in 0.005211 seconds 
+  Import took 0.008940 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

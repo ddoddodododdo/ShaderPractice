@@ -53,7 +53,7 @@
 			float3 refcolor = texCUBE(_Cube, WorldReflectionVector(IN,o.Normal));
 
 			//refraction term
-			float3 screenUV =  IN.screenPos.rgb / IN.screenPos.a;
+			float3 screenUV = 1;//IN.screenPos.rgb / IN.screenPos.a;
 			float3 refraction = tex2D(_GrabTexture,(screenUV.xy + o.Normal.xy*_Refract));
 
 			//rim term
